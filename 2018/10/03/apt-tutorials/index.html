@@ -111,15 +111,15 @@
   <meta name="description" content="我在做 基于 GitHub App 业务深度讲解 Kotlin1.2高级特性与框架设计 这门课的时候，顺便做了一个注解处理器的框架，叫 Tieguanyin(铁观音)，这个框架主要是用来解决 Activity 跳转时传参的问题，我们知道 Activity 如果需要参数，那么我们只能非常繁琐的使用 Intent 来传递，有了这个框架我们就可以省去这个麻烦的步骤。 在这里，框架的内容其实不是重点，重点">
 <meta name="keywords" content="Kotlin Java IntelliJ Android 视频教程">
 <meta property="og:type" content="article">
-<meta property="og:title" content="注解处理器教程【连载中】">
+<meta property="og:title" content="注解处理器教程 - 1. 课程简介">
 <meta property="og:url" content="http://bennyhuo.com/2018/10/03/apt-tutorials/index.html">
 <meta property="og:site_name" content="Bennyhuo">
 <meta property="og:description" content="我在做 基于 GitHub App 业务深度讲解 Kotlin1.2高级特性与框架设计 这门课的时候，顺便做了一个注解处理器的框架，叫 Tieguanyin(铁观音)，这个框架主要是用来解决 Activity 跳转时传参的问题，我们知道 Activity 如果需要参数，那么我们只能非常繁琐的使用 Intent 来传递，有了这个框架我们就可以省去这个麻烦的步骤。 在这里，框架的内容其实不是重点，重点">
 <meta property="og:locale" content="zh-CN">
 <meta property="og:image" content="http://bennyhuo.com/assets/Kotlin.jpg">
-<meta property="og:updated_time" content="2018-10-03T02:42:34.863Z">
+<meta property="og:updated_time" content="2018-10-03T02:55:13.839Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="注解处理器教程【连载中】">
+<meta name="twitter:title" content="注解处理器教程 - 1. 课程简介">
 <meta name="twitter:description" content="我在做 基于 GitHub App 业务深度讲解 Kotlin1.2高级特性与框架设计 这门课的时候，顺便做了一个注解处理器的框架，叫 Tieguanyin(铁观音)，这个框架主要是用来解决 Activity 跳转时传参的问题，我们知道 Activity 如果需要参数，那么我们只能非常繁琐的使用 Intent 来传递，有了这个框架我们就可以省去这个麻烦的步骤。 在这里，框架的内容其实不是重点，重点">
 <meta name="twitter:image" content="http://bennyhuo.com/assets/Kotlin.jpg">
 
@@ -142,7 +142,7 @@
   };
 </script>
 
-  <title>注解处理器教程【连载中】 | Bennyhuo</title>
+  <title>注解处理器教程 - 1. 课程简介 | Bennyhuo</title>
   
 
 
@@ -308,7 +308,7 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">注解处理器教程【连载中】
+          <h1 class="post-title" itemprop="name headline">注解处理器教程 - 1. 课程简介
               
             
           </h1>
@@ -333,7 +333,7 @@
                 
               
 
-              <time title="创建时间：2018-10-03 10:06:48 / 修改时间：10:42:34" itemprop="dateCreated datePublished" datetime="2018-10-03T10:06:48+08:00">2018-10-03</time>
+              <time title="创建时间：2018-10-03 10:06:48 / 修改时间：10:55:13" itemprop="dateCreated datePublished" datetime="2018-10-03T10:06:48+08:00">2018-10-03</time>
             
 
             
@@ -378,58 +378,6 @@
 <h1 id="视频观看"><a href="#视频观看" class="headerlink" title="视频观看"></a>视频观看</h1><h2 id="1-课程简介"><a href="#1-课程简介" class="headerlink" title="1. 课程简介"></a>1. 课程简介</h2><p>作为课程的第一节，我们简单介绍了一下 Apt 的工作原理和流程，并对整个视频课程涉及的内容做了介绍。</p>
 <p><strong>腾讯视频：</strong><br>
 <embed src="https://imgcache.qq.com/tencentvideo_v1/playerv3/TPout.swf?max_age=86400&v=20161117&vid=l0728uxh61x&auto=0" allowfullscreen="true" quality="high" width="480" height="400" align="middle" allowscriptaccess="always" type="application/x-shockwave-flash">
-</p>
-<p><strong>Bilibili：</strong><br>
-<iframe src="//player.bilibili.com/player.html?aid=32905508&cid=57705740&page=1" width="480" height="400" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
-</p>
-<h2 id="2-搭建工程"><a href="#2-搭建工程" class="headerlink" title="2. 搭建工程"></a>2. 搭建工程</h2><p>这一节主要介绍注解处理器工程的结构。</p>
-<p><strong>腾讯视频：</strong><br>
-<embed src="https://imgcache.qq.com/tencentvideo_v1/playerv3/TPout.swf?max_age=86400&v=20161117&vid=o07284u5rju&auto=0" allowfullscreen="true" quality="high" width="480" height="400" align="middle" allowscriptaccess="always" type="application/x-shockwave-flash">
-</p>
-<p><strong>Bilibili：</strong><br>
-<iframe src="//player.bilibili.com/player.html?aid=32905508&cid=57705740&page=2" width="480" height="400" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
-</p>
-<h2 id="3-解析注解"><a href="#3-解析注解" class="headerlink" title="3. 解析注解"></a>3. 解析注解</h2><p>这一节主要介绍如何解析注解获取被标注的元素信息。</p>
-<p><strong>腾讯视频：</strong><br>
-<embed src="https://imgcache.qq.com/tencentvideo_v1/playerv3/TPout.swf?max_age=86400&v=20161117&vid=z07286r97mz&auto=0" allowfullscreen="true" quality="high" width="480" height="400" align="middle" allowscriptaccess="always" type="application/x-shockwave-flash">
-</p>
-<p><strong>Bilibili：</strong><br>
-<iframe src="//player.bilibili.com/player.html?aid=32905508&cid=57705740&page=3" width="480" height="400" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
-</p>
-<h2 id="4-生成常量"><a href="#4-生成常量" class="headerlink" title="4. 生成常量"></a>4. 生成常量</h2><p>这一节为被标注的属性生成一些常量字符串来作为它们的 Key，也展示了如何为生成的 Java 类添加常量。</p>
-<p><strong>腾讯视频：</strong><br>
-
-</p>
-<p><strong>Bilibili：</strong><br>
-<iframe src="//player.bilibili.com/player.html?aid=32905508&cid=57705740&page=4" width="480" height="400" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
-</p>
-<h2 id="5-生成-start-方法"><a href="#5-生成-start-方法" class="headerlink" title="5. 生成 start 方法"></a>5. 生成 start 方法</h2><p>这一节为被标注的 Activity 生成携带被标注的属性作为参数的 start 的方法，也展示了如何为生成的 Java 类添加方法。</p>
-<p><strong>腾讯视频：</strong><br>
-
-</p>
-<p><strong>Bilibili：</strong><br>
-<iframe src="//player.bilibili.com/player.html?aid=32905508&cid=57705740&page=5" width="480" height="400" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
-</p>
-<h2 id="6-生成注入和状态保存的方法"><a href="#6-生成注入和状态保存的方法" class="headerlink" title="6. 生成注入和状态保存的方法"></a>6. 生成注入和状态保存的方法</h2><p>这一节为被标注的 Activity 生成注入属性的 inject 方法和保存状态的 saveState 方法。</p>
-<p><strong>腾讯视频：</strong><br>
-
-</p>
-<p><strong>Bilibili：</strong><br>
-<iframe src="//player.bilibili.com/player.html?aid=32905508&cid=57705740&page=6" width="480" height="400" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
-</p>
-<h2 id="7-生成-Kotlin-代码"><a href="#7-生成-Kotlin-代码" class="headerlink" title="7. 生成 Kotlin 代码"></a>7. 生成 Kotlin 代码</h2><p>这一节主要通过为被标注的 Activity 生成扩展方法来介绍如何生成 Kotlin 代码。</p>
-<p><strong>腾讯视频：</strong><br>
-
-</p>
-<p><strong>Bilibili：</strong><br>
-<iframe src="//player.bilibili.com/player.html?aid=32905508&cid=57705740&page=7" width="480" height="400" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
-</p>
-<h2 id="8-小结"><a href="#8-小结" class="headerlink" title="8. 小结"></a>8. 小结</h2><p>这一节对整个课程作了一个总结。</p>
-<p><strong>腾讯视频：</strong><br>
-
-</p>
-<p><strong>Bilibili：</strong><br>
-<iframe src="//player.bilibili.com/player.html?aid=32905508&cid=57705740&page=8" width="480" height="400" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
 </p>
 <hr>
 <p>欢迎关注 Kotlin 公众号：</p>
@@ -586,7 +534,7 @@
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#视频源码"><span class="nav-number">1.</span> <span class="nav-text">视频源码</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#视频观看"><span class="nav-number">2.</span> <span class="nav-text">视频观看</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#1-课程简介"><span class="nav-number">2.1.</span> <span class="nav-text">1. 课程简介</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#2-搭建工程"><span class="nav-number">2.2.</span> <span class="nav-text">2. 搭建工程</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#3-解析注解"><span class="nav-number">2.3.</span> <span class="nav-text">3. 解析注解</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#4-生成常量"><span class="nav-number">2.4.</span> <span class="nav-text">4. 生成常量</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#5-生成-start-方法"><span class="nav-number">2.5.</span> <span class="nav-text">5. 生成 start 方法</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#6-生成注入和状态保存的方法"><span class="nav-number">2.6.</span> <span class="nav-text">6. 生成注入和状态保存的方法</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#7-生成-Kotlin-代码"><span class="nav-number">2.7.</span> <span class="nav-text">7. 生成 Kotlin 代码</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#8-小结"><span class="nav-number">2.8.</span> <span class="nav-text">8. 小结</span></a></li></ol></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#视频源码"><span class="nav-number">1.</span> <span class="nav-text">视频源码</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#视频观看"><span class="nav-number">2.</span> <span class="nav-text">视频观看</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#1-课程简介"><span class="nav-number">2.1.</span> <span class="nav-text">1. 课程简介</span></a></li></ol></li></ol></div>
             
 
           </div>
