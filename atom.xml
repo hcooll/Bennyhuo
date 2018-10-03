@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Bennyhuo</title>
+  
+  <subtitle>编程、教学 &amp; Kotlin</subtitle>
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="https://www.bennyhuo.com/"/>
+  <updated>2018-10-03T03:00:17.559Z</updated>
+  <id>https://www.bennyhuo.com/</id>
+  
+  <author>
+    <name>Bennyhuo</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>注解处理器教程 - 1. 课程简介</title>
+    <link href="https://www.bennyhuo.com/2018/10/03/apt-tutorials/"/>
+    <id>https://www.bennyhuo.com/2018/10/03/apt-tutorials/</id>
+    <published>2018-10-03T02:06:48.914Z</published>
+    <updated>2018-10-03T03:00:17.559Z</updated>
+    
+    <content type="html"><![CDATA[<p>我在做 <a href="https://coding.imooc.com/class/232.html" target="_blank" rel="noopener">基于 GitHub App 业务深度讲解 Kotlin1.2高级特性与框架设计</a> 这门课的时候，顺便做了一个注解处理器的框架，叫 <a href="https://github.com/enbandari/TieGuanYin" target="_blank" rel="noopener">Tieguanyin(铁观音)</a>，这个框架主要是用来解决 Activity 跳转时传参的问题，我们知道 Activity 如果需要参数，那么我们只能非常繁琐的使用 <code>Intent</code> 来传递，有了这个框架我们就可以省去这个麻烦的步骤。</p><p>在这里，框架的内容其实不是重点，重点是，它是一个注解处理器的项目。为了让它的作用尽可能的放大，我对原框架做了简化，做了这套课程。</p><a id="more"></a><h1 id="视频源码"><a href="#视频源码" class="headerlink" title="视频源码"></a>视频源码</h1><p>见 Github 项目：<a href="https://github.com/enbandari/Apt-Tutorials" target="_blank" rel="noopener">Apt-Tutorials</a></p><h1 id="视频观看"><a href="#视频观看" class="headerlink" title="视频观看"></a>视频观看</h1><h2 id="1-课程简介"><a href="#1-课程简介" class="headerlink" title="1. 课程简介"></a>1. 课程简介</h2><p>作为课程的第一节，我们简单介绍了一下 Apt 的工作原理和流程，并对整个视频课程涉及的内容做了介绍。</p><p><strong>腾讯视频：</strong><br><iframe frameborder="0" width="480px" height="400px" src="https://v.qq.com/txp/iframe/player.html?vid=l0728uxh61x" allowfullscreen="true"></iframe></p><hr><p>欢迎关注 Kotlin 公众号：</p><p><img src="/assets/Kotlin.jpg" alt="Kotlin 公众号"></p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;我在做 &lt;a href=&quot;https://coding.imooc.com/class/232.html&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;基于 GitHub App 业务深度讲解 Kotlin1.2高级特性与框架设计&lt;/a&gt; 这门课的时候，顺便做了一个注解处理器的框架，叫 &lt;a href=&quot;https://github.com/enbandari/TieGuanYin&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Tieguanyin(铁观音)&lt;/a&gt;，这个框架主要是用来解决 Activity 跳转时传参的问题，我们知道 Activity 如果需要参数，那么我们只能非常繁琐的使用 &lt;code&gt;Intent&lt;/code&gt; 来传递，有了这个框架我们就可以省去这个麻烦的步骤。&lt;/p&gt;
+&lt;p&gt;在这里，框架的内容其实不是重点，重点是，它是一个注解处理器的项目。为了让它的作用尽可能的放大，我对原框架做了简化，做了这套课程。&lt;/p&gt;
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Kotlin 社区资源介绍</title>
+    <link href="https://www.bennyhuo.com/2018/10/02/kotlin-community-cn/"/>
+    <id>https://www.bennyhuo.com/2018/10/02/kotlin-community-cn/</id>
+    <published>2018-10-02T02:42:38.566Z</published>
+    <updated>2018-10-02T23:43:52.471Z</updated>
+    
+    <content type="html"><![CDATA[<p>Kotlin 为人熟知已经很长时间了，这段时间里，我们为了宣传和推广 Kotlin 也做了不少工作，下面简单盘点一下 Kotlin 社区的资源。</p><a id="more"></a><ol><li><strong><a href="https://www.kotlincn.net" target="_blank" rel="noopener">Kotlin 中文官网</a></strong>，官网的中文镜像，有社区大佬负责及时跟进翻译，是中文学习的首选资料。</li><li><strong><a href="https://www.kotliner.cn" target="_blank" rel="noopener">Kotlin 中文博客</a></strong>，官方博客的中文镜像，有社区大佬负责及时跟进翻译，可以及时获取 Kotlin 官方的最新动态。</li><li><strong><a href="https://discuss.kotliner.cn" target="_blank" rel="noopener">Kotlin 中文论坛</a></strong>，与官方论坛风格一致，保持原汁原味，大家可以在上面交流学习心得。</li><li><strong>微信公众号 Kotlin</strong>，账号从 2016 年 10月创建，至今已经持续更新两年，主要是我在使用 Kotlin 或者教学过程中的一些经验分享。</li></ol><p>欢迎关注 Kotlin 公众号：</p><p><img src="/assets/Kotlin.jpg" alt="Kotlin 公众号"></p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;Kotlin 为人熟知已经很长时间了，这段时间里，我们为了宣传和推广 Kotlin 也做了不少工作，下面简单盘点一下 Kotlin 社区的资源。&lt;/p&gt;
+    
+    </summary>
+    
+    
+  </entry>
+  
+</feed>
